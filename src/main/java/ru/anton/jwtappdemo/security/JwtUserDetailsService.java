@@ -7,6 +7,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import ru.anton.jwtappdemo.model.User;
+import ru.anton.jwtappdemo.security.jwt.JwtUser;
+import ru.anton.jwtappdemo.security.jwt.JwtUserFactory;
 import ru.anton.jwtappdemo.service.UserService;
 
 @Service
